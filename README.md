@@ -39,6 +39,7 @@ The hard failures in complex systems happen at the **interfaces** between parts,
 | Repo | What it is |
 |------|------------|
 | [**cad-future**](https://github.com/dcharlot-physicalai-bmi/cad-future) | **CadFuture** — a lightweight, LUT‑first CAD + multi‑physics toolchain that lets embodied systems model the physics of their perceived world. |
+| [**hyperdb**](https://github.com/dcharlot-physicalai-bmi/hyperdb) | A hybrid **graph + vector** database engine (HNSW ANN + property graph) — the data layer behind CadFuture. |
 
 *More lab projects land here as they open.*
 
