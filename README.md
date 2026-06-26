@@ -38,7 +38,7 @@ The hard failures in complex systems happen at the **interfaces** between parts,
 
 | Repo | What it is |
 |------|------------|
-| **cad-future** | **CadFuture** — a lightweight, LUT‑first CAD + multi‑physics toolchain that lets embodied systems model the physics of their perceived world. |
+| [**cad-future**](https://github.com/dcharlot-physicalai-bmi/cad-future) | **CadFuture** — a lightweight, LUT‑first CAD + multi‑physics toolchain that lets embodied systems model the physics of their perceived world. |
 
 *More lab projects land here as they open.*
 
