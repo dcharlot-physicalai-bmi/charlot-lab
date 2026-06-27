@@ -39,15 +39,15 @@ The hard failures in complex systems happen at the **interfaces** between parts,
 
 ## Repositories
 
-| Repo | What it is |
-|------|------------|
-| [**cad-future**](https://github.com/dcharlot-physicalai-bmi/cad-future) | **CadFuture** — a lightweight, LUT‑first CAD + multi‑physics toolchain that lets embodied systems model the physics of their perceived world. |
-| [**hyperdb**](https://github.com/dcharlot-physicalai-bmi/hyperdb) | A hybrid **graph + vector** database engine (HNSW ANN + property graph) — the data layer behind CadFuture. |
-| [**physics-mmast-sim**](https://github.com/dcharlot-physicalai-bmi/physics-mmast-sim) | **MMAST physics simulator** — multi-vehicle energy + signature simulator; persistence as an energy-balance problem. Built on CadFuture. |
+| Repo | Research topic | What it is |
+|------|----------------|------------|
+| [**omnisense**](https://github.com/dcharlot-physicalai-bmi/omnisense) | OmniSense | The world model as a property of the **volume**, not the body — distributed multi-modal mesh sensing resolving a space into occupied / empty / unknown. |
+| [**cad-future**](https://github.com/dcharlot-physicalai-bmi/cad-future) | The Computable World Model | **CadFuture** — a lightweight, LUT‑first CAD + multi‑physics toolchain that lets embodied systems model the physics of their perceived world. |
+| [**hyperdb**](https://github.com/dcharlot-physicalai-bmi/hyperdb) | Graph of the World | A hybrid **graph + vector** database engine (HNSW ANN + property graph) — the data layer behind CadFuture. |
+| [**sentinel**](https://github.com/dcharlot-physicalai-bmi/sentinel) | Spatial RF | A multiband RF sensing **fabric you can't spoof** — trust-weighted cross-band fusion, fail-loud faulting. |
+| [**physics-mmast-sim**](https://github.com/dcharlot-physicalai-bmi/physics-mmast-sim) | The surface that pays twice (MMAST) | **MMAST physics simulator** — multi-vehicle energy + signature simulator; persistence as an energy-balance problem. Built on CadFuture. |
 
-*More lab projects land here as they open.*
-
-Each repo maps to a research topic on the lab page: **cad-future → The Computable World Model**, **hyperdb → Graph of the World**, **physics-mmast-sim → The surface that pays twice (MMAST)**.
+*Every research topic on the lab page now has a home here. More land as they open.*
 
 ## Links
 
