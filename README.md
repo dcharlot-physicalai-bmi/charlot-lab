@@ -29,6 +29,9 @@ Led by **Dr. Charlot** — David Jean Charlot, PhD, Dean of Physical AI.
 
 - **OmniSense — the distributed world model.** The world model as a property of the *volume*, not the body. A mesh of sensing nodes — some on the system, some on peer systems, some anchored in the space — resolves the world into *occupied*, *empty*, and *unknown*, and a system perceives even itself from the whole mesh at once.
 - **The Computable World Model.** The physics an embodied agent needs is mostly *retrievable*, not computable. Every query walks one cascade — lookup, then closed-form formula, then sparse solver, then a model only as a last resort — so a full engineering model runs from a sub-5 mW chip to a workstation. *Research effort: **CadFuture**.*
+- **Graph of the World.** Perception fills a world model and physics makes it actionable, but the model has to live somewhere — as a graph. Every entity is a node, every relationship an edge, and each node carries a vector embedding, so a system can traverse relationships *and* search by similarity in one engine, on the device. *Research effort: **hyperdb**.*
+- **Spatial RF.** A sensing fabric you can't spoof: fuse the whole RF spectrum — mmWave, C-band, UWB, Wi-Fi CSI, mesh tomography, sub-GHz — weighted by how hard each band is to forge. Low-trust ambient bands corroborate but never veto a real event; only a high-trust, keyed-coherent band can; silence is a fault, not a gap. *Research effort: **Sentinel**.*
+- **The surface that pays twice (MMAST).** Persistence is one inequality — harvest must meet demand over the mission — and the vehicle's skin is the power plant. Every multi-material surface layer pays back twice: energy *and* signature. One physics-informed solver over vehicle × medium × surface-module. *Research effort: **MMAST physics simulator**.*
 
 ## The through-line
 
@@ -40,8 +43,11 @@ The hard failures in complex systems happen at the **interfaces** between parts,
 |------|------------|
 | [**cad-future**](https://github.com/dcharlot-physicalai-bmi/cad-future) | **CadFuture** — a lightweight, LUT‑first CAD + multi‑physics toolchain that lets embodied systems model the physics of their perceived world. |
 | [**hyperdb**](https://github.com/dcharlot-physicalai-bmi/hyperdb) | A hybrid **graph + vector** database engine (HNSW ANN + property graph) — the data layer behind CadFuture. |
+| [**physics-mmast-sim**](https://github.com/dcharlot-physicalai-bmi/physics-mmast-sim) | **MMAST physics simulator** — multi-vehicle energy + signature simulator; persistence as an energy-balance problem. Built on CadFuture. |
 
 *More lab projects land here as they open.*
+
+Each repo maps to a research topic on the lab page: **cad-future → The Computable World Model**, **hyperdb → Graph of the World**, **physics-mmast-sim → The surface that pays twice (MMAST)**.
 
 ## Links
 
