@@ -46,8 +46,9 @@ The hard failures in complex systems happen at the **interfaces** between parts,
 | [**hyperdb**](https://github.com/dcharlot-physicalai-bmi/hyperdb) | Graph of the World | A hybrid **graph + vector** database engine (HNSW ANN + property graph) — the data layer behind CadFuture. |
 | [**sentinel**](https://github.com/dcharlot-physicalai-bmi/sentinel) | Spatial RF | A multiband RF sensing **fabric you can't spoof** — trust-weighted cross-band fusion, fail-loud faulting. |
 | [**physics-mmast-sim**](https://github.com/dcharlot-physicalai-bmi/physics-mmast-sim) | The surface that pays twice (MMAST) | **MMAST physics simulator** — multi-vehicle energy + signature simulator; persistence as an energy-balance problem. Built on CadFuture. |
+| [**ambit**](https://github.com/dcharlot-physicalai-bmi/ambit) | VLI · built to interact, not to obey | **Ambit** — the Vision-Language-Interaction effort: make interaction itself the objective; maximize interaction and the repertoire to act in any situation follows. |
 
-*Every research topic on the lab page now has a home here. More land as they open.*
+*The lab's research topics live here as they open; the **MathGround** engine they run on is at [mathground.ai](https://mathground.ai). More land as they open.*
 
 ## Links
 
